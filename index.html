@@ -9,15 +9,19 @@
 </head>
 
 <body>
-    <form>
-        <div class="form__group field">
-            <input type="text" class="form__field" placeholder="Name" name="name" id='userInput' required />
-            <label for="name" class="form__label">Ingrese su consulta:</label>
-        </div>
-        <script src="/app.js"></script>
-        <button class="glow-on-hover" type="button" onclick="Probability()">Calcular</button>
-    </form>
-    <p id="probability"></p>
+    <div title="PROBABILITY" class="main-title">PROBABILITY</div>
+   <div class="probability flip-diagonal-2-bck"><p id="probability" ></p></div> 
+    <form class="form-wrapper">
+        
+            <div class="form__group field">
+                <input type="text" class="form__field" placeholder="Name" name="name" id='userInput' required />
+                <label for="name" class="form__label">Ingrese su consulta:</label>
+            </div>
+            <script src="/app.js"></script>
+            <button class="glow-on-hover" type="button" onclick="Probability()">Calcular</button>
+            
+        </form>
+    
 
 
     <!-- ************-->
