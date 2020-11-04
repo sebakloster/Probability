@@ -24,6 +24,7 @@ let names = [
   "cangre",
   "salga",
   "rompamos",
+  "agusdra"
 ];
 
 const getStatement = () => {
